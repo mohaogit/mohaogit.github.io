@@ -1,0 +1,15 @@
+// make the H2 wrap its two pieces in one inline-flex box
+.archive__item-title {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25em;       // ← controls exactly how much space you want
+  white-space: nowrap;
+  margin: 0;         // remove its default block top/bottom margins
+}
+
+// _sass/_custom.scss
+// Turn off that hover‐underline on archive__item-title
+.archive__item:hover .archive__item-title {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
