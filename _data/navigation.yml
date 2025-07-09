@@ -8,15 +8,17 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Research"
-    url: /publications/
+  #- title: "Research"
+  #  url: /publications/
 
   #- title: "Talks"
   #  url: /talks/    
+  - title: "Research"
+    url: /papers/ 
 
   - title: "Talks"
     url: /discussions/
-
+    
   # - title: "Teaching"
   #   url: /teaching/    
     
